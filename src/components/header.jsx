@@ -33,7 +33,10 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">CompanyName.</a>
+          <a className="btn btn-ghost text-3xl font-semibold text-gray-800 flex items-center">
+            Deloitte
+            <span className="mt-4 w-3 h-3 bg-green-800 rounded-full"></span>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
