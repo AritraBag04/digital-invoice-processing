@@ -1,6 +1,7 @@
 import hero from "./assets/Hero.png";
 import dashboard from "./assets/dashboard.png";
 import { CiPaperplane } from "react-icons/ci";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
@@ -109,6 +110,7 @@ function App() {
         </h1>
         <img className="m-8 w-1/2 h-1/2" src={dashboard} alt="" />
       </div>
+      <Footer/>
     </>
   );
 }
